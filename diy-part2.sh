@@ -16,3 +16,4 @@ sed -i 's/192.168.1.1/192.168.5.6/g' package/base-files/files/bin/config_generat
 # svn co https://github.com/coolsnowwolf/lede/tree/master/package/lean/libcryptopp package/feeds/smpackage/libcryptopp
 rm -rf feeds/smpackage/luci-app-bandwidthd
 rm -rf feeds/smpackage/amule
+rm -rf feeds/smpackage/luci-app-speedtest-web
