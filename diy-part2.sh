@@ -14,5 +14,5 @@
 sed -i 's/192.168.1.1/192.168.5.6/g' package/base-files/files/bin/config_generate
 # Add luci-app-amlogic
 # svn co https://github.com/coolsnowwolf/lede/tree/master/package/lean/libcryptopp package/feeds/smpackage/libcryptopp
-rm -rf feeds/smpackage/{amule,luci-app-bandwidthd,luci-app-speedtest-web,speedtest-web,luci-app-openvpn-server,luci-app-openvpn-client,openvpn-easy-rsa-whisky}
+rm -rf feeds/smpackage/{amule,luci-app-bandwidthd,luci-app-speedtest-web,speedtest-web,luci-app-openvpn-server,luci-app-openvpn-client,openvpn-easy-rsa-whisky,dnsmasq,luci-app-netdata,ppp}
 
