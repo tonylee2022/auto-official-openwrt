@@ -12,8 +12,6 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.5.6/g' package/base-files/files/bin/config_generate
-sed -i '$a src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 # Add luci-app-amlogic
 # svn co https://github.com/coolsnowwolf/lede/tree/master/package/lean/libcryptopp package/feeds/smpackage/libcryptopp
 rm -rf feeds/smpackage/{amule,luci-app-bandwidthd,luci-app-speedtest-web,speedtest-web,luci-app-openvpn-server,luci-app-openvpn-client,openvpn-easy-rsa-whisky}
